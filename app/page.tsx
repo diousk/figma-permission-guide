@@ -296,8 +296,6 @@ export default function Home() {
 
         <div className="governance-notes">
           <article><h3>沒有專用 service account／沒有預算</h3><p>可暫時指定一位穩定的現有 Full-seat Design System owner 產生 PAT，交由一至兩位管理員放入 CI secret。這是折衷，不是理想的長期身分模型。</p></article>
-          <article><h3>「設定時一定有人看過 PAT」怎麼辦？</h3><p>確實如此。把知情範圍縮到 token owner 與 CI secret 管理員；設定完成後其他工程師只提交 PR，不接觸 token。設定 expiration、輪替、離職交接與撤銷流程。</p></article>
-          <article><h3>為什麼不讓 App／Web 各自分享 PAT？</h3><p>共用個人憑證難以追蹤、撤銷與交接。若組織必須拆開，也應是各自的 CI secret 與各自受控的發布帳號，而不是在聊天工具傳 token。</p></article>
         </div>
       </section>
 

@@ -209,7 +209,7 @@ tbody tr:last-child td { border-bottom: 0; }
 .lock { color: var(--teal); font-size: 21px; }
 .ci-card b, .figma-card b { margin-top: 6px; font-size: 15px; }
 .ci-card p, .figma-card p { margin: 5px 0 0; color: #69636f; font-size: 11px; }
-.governance-notes { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 36px; }
+.governance-notes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 36px; }
 .governance-notes article { padding: 24px; background: white; border: 1.5px dashed var(--line); }
 .governance-notes h3 { margin: 0 0 8px; font-size: 16px; }
 .governance-notes p { margin: 0; color: #69636d; font-size: 13px; }
