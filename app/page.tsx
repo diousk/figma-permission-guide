@@ -31,6 +31,8 @@ const sources = [
   },
 ];
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 function Arrow({ label }: { label?: string }) {
   return (
     <div className="arrow" aria-hidden="true">
@@ -83,7 +85,7 @@ export default function Home() {
         </div>
         <div className="hero-art">
           <img
-            src="/permission-flow.png"
+            src={`${basePath}/permission-flow.png`}
             alt="手繪風格的 Figma Library、Code Connect 與 Web、iOS、Android 程式碼關係圖"
             width={1680}
             height={941}
