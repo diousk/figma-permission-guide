@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const sources = [
   {
     title: "Code Connect｜Introduction",
@@ -84,12 +82,11 @@ export default function Home() {
           <p className="updated">依官方文件整理 · 更新於 2026-07-15</p>
         </div>
         <div className="hero-art">
-          <Image
+          <img
             src="/permission-flow.png"
             alt="手繪風格的 Figma Library、Code Connect 與 Web、iOS、Android 程式碼關係圖"
             width={1680}
             height={941}
-            priority
           />
           <span className="tape tape-a" />
           <span className="tape tape-b" />
